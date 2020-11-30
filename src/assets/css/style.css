@@ -1,0 +1,305 @@
+@import url('https://fonts.googleapis.com/earlyaccess/notosanstc.css');
+@import url('https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+
+/* reset */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    font-family: 'Noto Serif TC', 'Noto Sans TC', serif;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9vw;
+    color: #505051;
+}
+
+ul,
+li,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active,
+input,
+select,
+button {
+    font-family: inherit;
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+h2 {
+    font-size: 2.5vw;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.1em;
+}
+
+h3 {
+    font-size: 1.3vw;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+button {
+    cursor: pointer;
+}
+
+img {
+    border: none;
+    outline: none;
+    max-width: 100%;
+}
+
+p {
+    margin-top: 0;
+    letter-spacing: 0.1em;
+}
+
+mark {
+    background: none;
+}
+
+
+/* start */
+
+.wrapper {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+.contentbox {
+    position: relative;
+    padding: 8vw 1em 2em;
+    min-height: 100%;
+    background-image: linear-gradient(to top, #cdcdc2 0%, #f5f5ee 37%, #f5f5ee 82%, #b9b9ae 100%);
+}
+
+.contentbox::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('../images/background.png');
+    background-repeat: repeat;
+}
+
+.contentbox.setlight::before {
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.contentbox>* {
+    position: relative;
+    z-index: 1;
+}
+
+.contentbox p {
+    margin-bottom: 2em;
+}
+
+.content-title {
+    text-align: center;
+}
+
+.content-title div {
+    display: inline-block;
+    text-align: left;
+}
+
+.content-img {
+    width: 70%;
+    margin: 1em auto 2em;
+}
+
+.content-img img {
+    display: block;
+    margin: auto;
+}
+
+.article-img {
+    margin-bottom: 1em;
+}
+
+.article-img img {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+
+.article-media {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+.article-media iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+@-moz-keyframes setRotate {
+    from {
+        -moz-transform: rotate(0deg);
+    }
+    to {
+        -moz-transform: rotate(360deg);
+    }
+}
+
+@-webkit-keyframes setRotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes setRotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@media (hover: hover) {}
+
+@media screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {}
+
+@media screen and (max-width: 1900px) {
+    body {
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    body {
+        font-size: 1.3vw;
+    }
+    h2 {
+        font-size: 2.4vw;
+    }
+    h3 {
+        font-size: 1.5vw;
+    }
+}
+
+@media screen and (max-width: 1280px) {}
+
+@media screen and (max-width: 1024px) {
+    body {
+        font-size: 1.6vw;
+    }
+    h2 {
+        font-size: 3vw;
+    }
+    h3 {
+        font-size: 2vw;
+    }
+    .article-img img {
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 2vw;
+    }
+    h2 {
+        font-size: 3.6vw;
+    }
+    h3 {
+        font-size: 2.4vw;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        font-size: 2.5vw;
+    }
+    h2 {
+        font-size: 4.5vw;
+    }
+    h3 {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    body {
+        font-size: 3vw;
+    }
+    .wrapper {
+        width: 92%;
+    }
+}
+
+@media screen and (max-width: 812px) and (orientation: landscape) {
+    body {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    html.fixed {
+        margin-right: 0;
+    }
+    body {
+        font-size: 4vw;
+    }
+    h2 {
+        font-size: 7vw;
+    }
+    h3 {
+        font-size: 5vw;
+    }
+    .contentbox {
+        padding: 25vw 1em 2em;
+    }
+    .content-img {
+        width: 100%;
+    }
+    .article-img img {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 4.5vw;
+    }
+}
