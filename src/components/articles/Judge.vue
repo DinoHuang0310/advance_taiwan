@@ -13,6 +13,7 @@
       </picture>
     </div>
     <div class="wrapper">
+      <p style="text-align: center"><small>撰文/楊竣傑</small></p>
       <p>1935年7月1日，《刑法》第 239 條「有配偶而與人通姦者，處一年以下有期徒刑。其相姦者亦同。」正式施行。</p>
       <div class="article-img">
         <img src="../../assets/images/judge/pic-01.png" alt="">

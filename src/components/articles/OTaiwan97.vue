@@ -13,11 +13,17 @@
       </picture>
     </div>
     <div class="wrapper">
+      <p style="text-align: center"><small>撰文/陳亭均</small></p>
       <p>2020年6月16日，世界動物衛生組織（OIE）正式把台灣從口蹄疫疫區除名。那天晚上，行政院農業委員會動植物防疫檢疫局局長杜文珍開心地幾乎睡不著覺。</p>
       <p>2018年，防檢局前副局長施泰華因主動脈剝離逝世，當時非洲豬瘟正在中國擴散，這個從口蹄疫、H5N6禽流感，一路跟著台灣動植物防疫檢疫走過來的老將，在臨終前都還心心念念著防堵疫情。</p>
       <p>「拿到OIE認可口蹄疫除疫後，我特別找了時間，去施泰華靈前告訴他：『施副局長，您的心願我們完成了……』」也難怪杜文珍感概，口蹄疫是糾纏台灣四分之一個世紀的夢魘。世代手把手，才做完了這道習題。</p>
-      <div class="article-img">
-        <img src="../../assets/images/o-taiwan/pic-04.png" alt="">
+      <div class="article-media">
+        <iframe
+            src="https://www.youtube.com/embed/0bOIfhnmnWs"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+        />
       </div>
       <p><br></p>
       <p>回到1997年3月，豬農劉錦河到新竹的豬舍巡視。然而一到那兒，他就知道壞事發生了。「我看到一隻小豬死掉......」不只小豬，豬媽媽蹄子也脫落在地，嫩骨外露。</p>
@@ -48,13 +54,8 @@
       <p>不僅官方，因為口蹄疫和國際疫病接連撲台，國內豬農觀念也逐漸改變。</p>
       <p>位在南投的新合興牧場，生物安全防護做得幾乎滴水不漏。員工、訪客皆須洗頭、洗澡，換上專用的衣物才能進場。「在生物安全上，包括運輸車輛、器具進出，都會要求。」總經理林陽山很清楚，「螺絲鬆掉，一批小豬可能就會因下痢問題，造成許多損失。」</p>
       <p>口蹄疫在台灣絕跡，但不代表未來台灣豬業王國就能中興。1997年之前的養豬盛況已不復見，台灣目前養豬戶跟當年全盛時期的豬量相比，幾乎腰斬一半。如果台灣豬要再出口，未來勢必要重建規格化生產流程及屠體評等制度，加上尚未拔針的「傳統豬瘟」..，全部都是挑戰。然而國門守好、家門守好，品質優化，儘管台灣許多養豬場仍維持傳統樣貌，但從政府到業界，改變正在加速。</p>
-      <div class="article-media">
-        <iframe
-            src="https://www.youtube.com/embed/0bOIfhnmnWs"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-        />
+      <div class="article-img">
+        <img src="../../assets/images/o-taiwan/pic-04.png" alt="">
       </div>
       <p><br></p>
     </div>
