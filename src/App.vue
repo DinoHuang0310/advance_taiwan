@@ -26,6 +26,7 @@
               <span>C.E. 1997 - 2020</span>
               <h2>台豬解封</h2>
               <p>官民齊心奮戰23個年頭，終於喜贏口蹄疫除名</p>
+              <button @click="showContent(1)">詳全文</button>
             </article>
           </section>
         </li>
@@ -40,6 +41,7 @@
               <span>C.E. 2003 -</span>
               <h2>防疫英雄</h2>
               <p>從抗SARS到新冠肺炎，他見證三場「大戰役」</p>
+              <button @click="showContent(2)">詳全文</button>
             </article>
           </section>
         </li>
@@ -54,6 +56,7 @@
               <span>C.E. 2004 -</span>
               <h2>熱血新創</h2>
               <p>在疫情高峰期擋下1.4億通詐騙，變身明日獨角獸</p>
+              <button @click="showContent(3)">詳全文</button>
             </article>
           </section>
         </li>
@@ -67,7 +70,8 @@
             <article>
               <span>C.E. 1995 -</span>
               <h2>科學躍進</h2>
-              <p>人類首張黑洞影像背後功臣，台灣造出望相宇宙之眼</p>
+              <p>人類首張黑洞影像背後功臣，台灣造出望向宇宙之眼</p>
+              <button @click="showContent(4)">詳全文</button>
             </article>
           </section>
         </li>
@@ -82,6 +86,7 @@
               <span>C.E. 2000 - 2020</span>
               <h2>保障人權</h2>
               <p>敲開婚姻人格自主與性平，釋憲終結85年通姦罪</p>
+              <button @click="showContent(5)">詳全文</button>
             </article>
           </section>
         </li>
@@ -96,6 +101,7 @@
               <span>C.E. 2003 -</span>
               <h2>社會多元</h2>
               <p>從外籍新娘到新住民，新科移民官登上舞台發光</p>
+              <button @click="showContent(6)">詳全文</button>
             </article>
           </section>
         </li>
@@ -310,6 +316,15 @@ h1 img {
 .event-box article span {
   margin-left: 0.3em;
 }
+.event-box article button {
+  color: white;
+  border: none;
+  background: #777775;
+  font-size: 0.9em;
+  display: block;
+  padding: 0.2em 0.5em;
+  transition: .5s;
+}
 .scrollbox li section {
   display: inline-block;
   vertical-align: middle;
@@ -397,6 +412,9 @@ h1 img {
   .close:hover {
     transform: translate(0, -5px);
   }
+  .event-box article button:hover {
+    background: #505051;
+  }
 }
 
 @media screen and (-ms-high-contrast: active),
@@ -409,6 +427,9 @@ h1 img {
   }
   .close:hover {
     transform: translate(0, -5px);
+  }
+  .event-box article button:hover {
+    background: #505051;
   }
 }
 
